@@ -17,6 +17,9 @@
       <Technologie />
       <ProjektTracking />
     </div>
+    <div class="modules-container">
+      <TopfactStandardsAPI/>
+    </div>
   </div>
   <SocialMedia />
 </template>
@@ -32,6 +35,7 @@ import Topfact6Module from "./components/topfact6Module.vue";
 import Technologie from "./components/Technologie.vue";
 import ProjektTracking from "./components/ProjektTracking.vue";
 import SocialMedia from "./components/SocialMedia.vue";
+import TopfactStandardsAPI from "./components/topfactStandardsAPI.vue";
 
 export default {
   name: "App",
@@ -45,7 +49,8 @@ export default {
     FuturePlans,
     Technologie,
     ProjektTracking,
-    SocialMedia
+    SocialMedia,
+    TopfactStandardsAPI
   },
 };
 </script>
